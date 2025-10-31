@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>SPREADSHEET_APP</title>
+  </head>
+  <body>
+    <div class="terminal">
+      <header class="terminal-header">
+        <div class="window-controls">
+          <span class="control close"></span>
+          <span class="control minimize"></span>
+          <span class="control maximize"></span>
+        </div>
+        <div class="title-bar">
+          <span class="prompt">></span>
+          <span class="title">SPREADSHEET_APP</span>
+          <span class="cursor">_</span>
+        </div>
+      </header>
+
+      <main class="terminal-body">
+        <div class="app-header">
+          <h1 class="app-title">~/data/spreadsheet</h1>
+          <div class="status-bar">
+            <span class="status-item">READY</span>
+            <span class="status-item">v2.5.1</span>
+            <span class="status-item">UTF-8</span>
+          </div>
+        </div>
+
+        <div class="spreadsheet-info">
+          <div class="info-panel">
+            <div class="info-header">
+              <span class="info-title">FUNCTIONS_AVAILABLE</span>
+            </div>
+            <div class="info-content">
+              <div class="function-list">
+                <div class="function-item">
+                  <span class="function-name">SUM</span>
+                  <span class="function-desc">Sum of values</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">AVERAGE</span>
+                  <span class="function-desc">Mean average</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">MEDIAN</span>
+                  <span class="function-desc">Middle value</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">EVEN</span>
+                  <span class="function-desc">Filter even numbers</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">RANGE</span>
+                  <span class="function-desc">Create number range</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">NODUPES</span>
+                  <span class="function-desc">Remove duplicates</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">INCREMENT</span>
+                  <span class="function-desc">Add 1 to values</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">FIRSTTWO</span>
+                  <span class="function-desc">First two values</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">LASTTWO</span>
+                  <span class="function-desc">Last two values</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">SOMEEVEN</span>
+                  <span class="function-desc">Check for any even</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">EVERYEVEN</span>
+                  <span class="function-desc">Check if all even</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">HAS2</span>
+                  <span class="function-desc">Check for number 2</span>
+                </div>
+                <div class="function-item">
+                  <span class="function-name">RANDOM</span>
+                  <span class="function-desc">Generate random number</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-panel">
+            <div class="info-header">
+              <span class="info-title">CELL_REFERENCE</span>
+            </div>
+            <div class="info-content">
+              <div class="reference-guide">
+                <div class="ref-item">
+                  <span class="ref-example">=A1+B2</span>
+                  <span class="ref-desc">Basic arithmetic</span>
+                </div>
+                <div class="ref-item">
+                  <span class="ref-example">=SUM(A1:A10)</span>
+                  <span class="ref-desc">Range sum</span>
+                </div>
+                <div class="ref-item">
+                  <span class="ref-example">=AVERAGE(A1,B2,C3)</span>
+                  <span class="ref-desc">Multiple cells</span>
+                </div>
+                <div class="ref-item">
+                  <span class="ref-example">=MEDIAN(A1:A10)</span>
+                  <span class="ref-desc">Find middle value</span>
+                </div>
+                <div class="ref-item">
+                  <span class="ref-example">=EVEN(A1:A10)</span>
+                  <span class="ref-desc">Filter even numbers</span>
+                </div>
+                <div class="ref-item">
+                  <span class="ref-example">=NODUPES(A1:A10)</span>
+                  <span class="ref-desc">Remove duplicates</span>
+                </div>
+                <div class="ref-item">
+                  <span class="ref-example">=RANGE(1,10)</span>
+                  <span class="ref-desc">Create number sequence</span>
+                </div>
+                <div class="ref-item">
+                  <span class="ref-example">=INCREMENT(A1:A5)</span>
+                  <span class="ref-desc">Add 1 to each value</span>
+                </div>
+                <div class="ref-item">
+                  <span class="ref-example">=FIRSTTWO(A1:A10)</span>
+                  <span class="ref-desc">Get first 2 values</span>
+                </div>
+                <div class="ref-item">
+                  <span class="ref-example">=LASTTWO(A1:A10)</span>
+                  <span class="ref-desc">Get last 2 values</span>
+                </div>
+                <div class="ref-item">
+                  <span class="ref-example">=SOMEEVEN(A1:A10)</span>
+                  <span class="ref-desc">Check if any even numbers</span>
+                </div>
+                <div class="ref-item">
+                  <span class="ref-example">=HAS2(A1:A10)</span>
+                  <span class="ref-desc">Check if contains number 2</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="spreadsheet-container">
+          <div id="container" class="spreadsheet-grid"></div>
+        </div>
+
+        <div class="formula-bar">
+          <div class="formula-header">
+            <span class="formula-title">FORMULA_BAR</span>
+            <span class="formula-status">READY</span>
+          </div>
+          <div class="formula-input-container">
+            <span class="formula-prompt">=</span>
+            <input type="text" id="formula-input" class="formula-input" placeholder="Enter formula (e.g., =SUM(A1:A10))" />
+            <button id="apply-formula" class="terminal-btn primary">
+              <span class="btn-text">[APPLY]</span>
+            </button>
+          </div>
+        </div>
+      </main>
+
+      <footer class="terminal-footer">
+        <div class="footer-stats">
+          <span class="stat">CELLS: <span id="cell-count">0</span>/990</span>
+          <span class="stat">MODE: <span id="edit-mode">READY</span></span>
+          <span class="stat">RANGE: A1-J99</span>
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
