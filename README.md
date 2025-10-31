@@ -93,17 +93,6 @@ No dependencies required - pure HTML, CSS, and JavaScript.
 
 ---
 
-## 🚀 Advanced Features
-
-- **Drag Selection**: Click and drag to select multiple cells
-- **Keyboard Navigation**: Excel-like navigation shortcuts
-- **Formula Evaluation**: Complex mathematical expressions
-- **Range Operations**: Apply formulas to multiple cells simultaneously
-- **Error Handling**: Graceful error messages for invalid formulas
-- **Responsive Design**: Adapts to different screen sizes
-
----
-
 ## 🤝 Contributing
 
 Fork the repo and submit PRs for:
