@@ -22,7 +22,7 @@ This repository contains the complete portfolio of projects needed to demonstrat
 
 <img width="1509" height="1242" alt="Screenshot 2025-10-30 190955" src="https://github.com/user-attachments/assets/1123a58d-2e5c-4876-bfdf-c0f0b93fc02f" />
 
-Live Demo: https://acheronx0577.github.io/JavaScript-Spreadsheet-App
+Live Demo: https://acheronx0577.github.io/JavaScript-Building-a-Spreadsheet
 
 ---
 
